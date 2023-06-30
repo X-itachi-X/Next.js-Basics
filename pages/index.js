@@ -14,6 +14,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <h1 className="title">
+          Read <Link href="/posts/first-post">this page!</Link>
+        </h1>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
